@@ -25,7 +25,7 @@ public class ContactFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View contactView = inflater.inflate(R.layout.fragment_contact, container, false);
-        
+
         return contactView;
     }
 
