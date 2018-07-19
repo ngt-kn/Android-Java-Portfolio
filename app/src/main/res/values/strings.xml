@@ -3,4 +3,27 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="about_user">
+        Hi, my name is user name. Enter your bio: Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+        esse cillum dolore eu fugiat nulla pariatur.
+    </string>
+
+    <string name="skills">
+        * Java "\n"* Swift"\n"* Android"\n"* iOS"\n"* ReactNative
+    </string>
+
+    <string name="work">
+        Work Experience 1: Business/Project Name"\n"Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua."\n\n"Work Experience 2: Business/Project Name"\n"Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </string>
+    <string name="contact">
+        Email: email@email.com"\n"Phone: (123) 456-7890"\n"Cell: (098) 765-4321"\n"Social Media: …
+    </string>
+
 </resources>

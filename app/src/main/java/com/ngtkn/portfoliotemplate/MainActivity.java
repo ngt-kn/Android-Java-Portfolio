@@ -1,5 +1,7 @@
 package com.ngtkn.portfoliotemplate;
 
+import android.graphics.Color;
+import android.support.annotation.ColorInt;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -20,5 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         TabLayout tabs = findViewById(R.id.tab_layout_id);
         tabs.setupWithViewPager(viewPager);
+        tabs.setTabTextColors(Color.GRAY, Color.parseColor("#0069c0"));
+
     }
 }

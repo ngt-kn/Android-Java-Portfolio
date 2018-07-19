@@ -5,4 +5,6 @@
     <color name="colorAccent">#4dd0e1</color>
     <color name="colorWebsiteTab">#bdbdbd</color>
     <color name="colorPageTab">#88ffff</color>
+    <color name="centerColor">#6ec6ff</color>
+    <color name="endColor">#e5ffff</color>
 </resources>
