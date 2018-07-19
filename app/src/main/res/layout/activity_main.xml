@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/background">
-
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
 
     <android.support.v7.widget.CardView
         android:layout_width="375dp"
@@ -21,15 +20,14 @@
             android:layout_height="match_parent"
             android:padding="5dp">
 
-            <de.hdodenhof.circleimageview.CircleImageView
-                xmlns:app="http://schemas.android.com/apk/res-auto"
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/profile_image"
-                android:layout_alignParentRight="true"
                 android:layout_width="96dp"
                 android:layout_height="96dp"
+                android:layout_alignParentRight="true"
                 android:src="@drawable/profile"
-                app:civ_border_width="2dp"
-                app:civ_border_color="@color/colorAccent"/>
+                app:civ_border_color="@color/colorAccent"
+                app:civ_border_width="2dp" />
 
             <TextView
                 android:id="@+id/user_name"
@@ -53,30 +51,31 @@
                 android:textStyle="italic" />
 
         </RelativeLayout>
+
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
         android:layout_width="300dp"
         android:layout_height="53dp"
-        app:cardElevation="5dp"
-        android:layout_marginTop="115dp"
         android:layout_centerHorizontal="true"
-        android:id="@+id/card_view"
-        >
+        android:layout_marginTop="115dp"
+        app:cardElevation="5dp">
 
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal">
+
             <TextView
                 android:id="@+id/contact_user"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorAccent"
-                android:text="Contact User"
+                android:layout_centerVertical="true"
                 android:drawableBottom="@drawable/ic_contact_phone_black_24dp"
-                android:layout_centerVertical="true"/>
-            
+                android:text="Contact User"
+                android:textColor="@color/colorAccent" />
+
         </RelativeLayout>
 
     </android.support.v7.widget.CardView>
@@ -84,16 +83,15 @@
     <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="15dp"
         android:layout_below="@id/card_view"
         android:layout_centerHorizontal="true"
-        >
+        android:layout_marginTop="15dp">
 
         <android.support.design.widget.TabLayout
             android:id="@+id/tab_layout_id"
-            android:background="@color/colorPageTab"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="@color/colorPageTab">
 
         </android.support.design.widget.TabLayout>
 
